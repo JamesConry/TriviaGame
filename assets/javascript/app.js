@@ -5,15 +5,20 @@ var correct = false;
 var correctCount = 0;
 var wrongCount = 0;
 
-var answerArr = [1,1,1,1,1,1,1];
+var answerArr = [1,2,2,3,4,3,2];
 var index = 0;
 
 var images = ["","","","","","",""];
 
-var questions = ["this is a test","this is also a test","","","","",""];
+var questions = ["Who collected the 1973 best supporting actor Oscar at age 10?","What 19th-century U.S. novelist said music by Wagner was not as bad as it sounds?",
+"What human organ graces The Carpenters' A Song For You album cover?","What natural wonder was aerialist Charles Blondin the first person to tiptoe across, in 1859?",
+"In the Star Wars movies, who carries Anakin's flag before the Podrace?","What bird was the first animal to be put on the Endangered Species List?",
+"What's your sign of the Zodiac if you were born on Christmas Day?"];
 
-var answers = [["test","2","3","4"],["1","2","3","4"],["","","",""],
-["","","",""],["","","",""],["","","",""],["","","",""]];
+var answers = [["Tatum O'Neal","Dianne Wiest","Juliette Binoche","Jody Foster"],["Jack London","Mark Twain","James Fenimore Cooper","Edgar Allen Poe"],
+["A liver","A heart","The lungs","A brain"],["Devil's Tower","Grand Canyon","Niagara Falls","The English Channel"],
+["R2D2","Chewbacca","Queen Amidala","C-3PO"],["The California condor","The Eskimo curlew","The peregrine falcon","The Hawaiian hawk"],
+["Sagittarius","Capricorn","Aquarius","Libra"]];
 
 var correctText = ["","","","","","",""];
 
