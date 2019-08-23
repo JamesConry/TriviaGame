@@ -64,7 +64,7 @@ function countDown(){
     else{
         clearInterval(timer);
         correct=false;
-        incorrectAnswer();
+        answerScreen();
     }
 
 }
