@@ -103,12 +103,12 @@ function answerScreen(){
         
         $("#question").text("CORRECT!");
         $("#correctArea").text(correctText[index]);
-        $("#img-holder").html("<img src=" + images[index] + " width='400px' height='400px'>");
+        $("#img-holder").html("<img src=" + images[index] + " width='250px' height='250px'>");
         setTimeout(correctAnswer,1000*5);
     }
     else{
         
-        $("#img-holder").html("<img src=" + images[index] + " width='400px' height='400px'>");
+        $("#img-holder").html("<img src=" + images[index] + " width='250px' height='250px'>");
         $("#question").text("WRONG!");
         $("#correctArea").text(correctText[index]);
         setTimeout(incorrectAnswer,1000*5);
